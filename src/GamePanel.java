@@ -55,8 +55,9 @@ public class GamePanel extends JPanel implements ActionListener {
 	
 	
 	public void startGame() {
+
 		letterStack = new Stack<String>();
-		letterStack.push("null");// unreachable element "game won"
+		letterStack.push("null");// un reachable element "game won"
 		letterStack.push("d");
 		letterStack.push("e");
 		letterStack.push("y");
